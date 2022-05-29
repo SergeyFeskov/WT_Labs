@@ -54,7 +54,7 @@ function output_calendar(string $year_str, array $year_calendar, array $month_na
     }
 }
 
-if (count($_GET) != 2 || !isset($_GET['year'])) {
+if (count($_GET) != 1 || !isset($_GET['year'])) {
     echo "Invalid GET params. Use metoda_var5.html to execute this script.";
     print_return();
     exit(1);

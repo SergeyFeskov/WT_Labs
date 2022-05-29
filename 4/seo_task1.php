@@ -84,4 +84,5 @@ $formBuilder = new FormBuilder("get", '12.php', 'send');
 $formBuilder->addTextField("test", ["sm11", "sm12"], ["someValue2", "someValue1"]);
 $formBuilder->addRadioGroup("radio group", ["a", "b", "c"], ["A", "B", "C"]);
 $formBuilder->addCheckboxGroup("check box group", ["1", "2", "3"], ["a1", "a2", "a3"]);
+
 echo $formBuilder->getForm();
